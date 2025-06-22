@@ -10,7 +10,7 @@ System Prompts Atlas 是一个收集各种公开部署聊天机器人系统消�
 - 开发友好：提供React组件示例和Next.js集成方案
 - 持续更新：社区驱动的实时更新机制
 
-## 主要内容
+## 📜主要内容
 
 ### 各平台系统提示文档
 
@@ -37,11 +37,27 @@ System Prompts Atlas 是一个收集各种公开部署聊天机器人系统消�
     | o4 - mini | Medium | 64 |
     | o4 - mini | High | 512 |
 
-## 贡献指南
+### 🗂 目录结构
+
+```bash
+.
+├── Anthropic/          # Claude系列系统指令
+│   ├── claude-3.7-full-system-message.md
+│   └── claude-sonnet-4.md
+├── openai/             # ChatGPT系列配置
+│   ├── chatgpt-codex.md
+│   └── gpt-4o-image-safety.md
+├── google/             # Gemini/Palm相关
+├── docs/               # 分析报告与白皮书
+├── public/             # 静态资源
+└── CONTRIBUTING.md     # 贡献规范
+```
+
+## 🤝贡献指南
 
 我们欢迎社区的贡献！如果您发现了新的系统提示信息，或者对现有文档有改进建议，欢迎提交 Pull Request（PR）。请确保在提交 PR 时引用所有非自己发现的信息来源。
 
-## 致谢与引用
+## 🚀致谢与引用
 
 - <https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git>
 - <https://github.com/asgeirtj/system_prompts_leaks.git>
